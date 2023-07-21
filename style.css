@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 245vh;
+    background-color: pink;
+
+    display: flex;
+    justify-content: center;
+}
+.card{
+   
+    width:750px;
+    height: 1080px;
+    background-color: white;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em 1em;
+    justify-content: space-between;
+}
+.nav-bar img{
+    width:7%;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav-bar a:hover{
+    text-decoration-line: underline;
+    color: blue;
+    
+}
+button{
+    width: 15%;
+    height: 1.8rem;
+    background-color: rgb(71, 98, 217);
+    color: white;
+}
+.micro{
+        margin:3rem 1.5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+}
+.text-section{
+    width:450px;
+    height: 280px;
+    /* border: 2px solid black; */
+    padding: 1rem 1rem;
+}
+.heading{
+    font-size: 1.8em;
+}
+.heading:hover{
+    text-decoration: underline;
+}
+.description{
+    color: gray;
+    text-align: left;
+    font-size: medium;
+}
+.img-section img{
+    width:100%;
+}
+.simple{
+    margin:3rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.img-section1 img{
+    width:90%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 1rem;
+    gap:18px;
+}
+.box1{
+    width:220px;
+    height:270px;
+    /* border: 2px solid black; */
+}
+.box1 img{
+    
+    padding: 1.5rem 1rem;
+    width: 45%;
+}
+.box2{
+    padding: 1.5rem 1rem;
+    width:250px;
+    height:270px;
+    /* border: 2px solid black; */
+}
+.box3{
+    padding: 1.5rem 1rem;
+    
+    width:130px;
+    height:270px;
+    /* border: 2px solid black; */
+}
+.box4{
+    padding: 2.5rem 2rem;
+    width:200px;
+    height:270px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+}
+.foot{
+    font-size: smaller;
+    color: gray;
+    line-height: 1.8em;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    background-color: rgb(31, 76, 166);
+
+}
+.facebook img{
+    position: relative;
+    top:30%;
+    bottom: 40%;
+    left: 35%;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    background-color: rgb(31, 76, 166);
+}
+.twitter img{
+    position: relative;
+    top:30%;
+    bottom: 40%;
+    left: 33%;
+}
+
+.instagram{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    background-color: rgb(31, 76, 166);
+}
+.instagram img{
+    position: relative;
+    top:26%;
+    bottom: 40%;
+    left: 28%;
+}
